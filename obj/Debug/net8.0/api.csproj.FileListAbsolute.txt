@@ -31,3 +31,4 @@ C:\Users\pahan\Documents\Projects\net-web-api\api\obj\Debug\net8.0\refint\api.dl
 C:\Users\pahan\Documents\Projects\net-web-api\api\obj\Debug\net8.0\api.pdb
 C:\Users\pahan\Documents\Projects\net-web-api\api\obj\Debug\net8.0\api.genruntimeconfig.cache
 C:\Users\pahan\Documents\Projects\net-web-api\api\obj\Debug\net8.0\ref\api.dll
+C:\Users\pahan\Documents\Projects\net-web-api\api\obj\Debug\net8.0\api.sourcelink.json
