@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\pahan\\Documents\\Projects\\net-web-api\\api\\api.csproj": {}
+    "C:\\Users\\pahan\\Documents\\Projects\\net-web-api\\api\\api.csproj": {}
   },
   "projects": {
-    "c:\\Users\\pahan\\Documents\\Projects\\net-web-api\\api\\api.csproj": {
+    "C:\\Users\\pahan\\Documents\\Projects\\net-web-api\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\pahan\\Documents\\Projects\\net-web-api\\api\\api.csproj",
+        "projectUniqueName": "C:\\Users\\pahan\\Documents\\Projects\\net-web-api\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "c:\\Users\\pahan\\Documents\\Projects\\net-web-api\\api\\api.csproj",
+        "projectPath": "C:\\Users\\pahan\\Documents\\Projects\\net-web-api\\api\\api.csproj",
         "packagesPath": "C:\\Users\\pahan\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\pahan\\Documents\\Projects\\net-web-api\\api\\obj\\",
+        "outputPath": "C:\\Users\\pahan\\Documents\\Projects\\net-web-api\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,6 +47,22 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.10, )"
             },

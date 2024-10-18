@@ -1,0 +1,37 @@
+# Build results
+/bin/
+/obj/
+
+# Visual Studio specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider specific files
+.idea/
+
+# Visual Studio Code specific files
+.vscode/
+
+# Packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+# Secrets and configuration
+appsettings*.json
+secrets.json
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
