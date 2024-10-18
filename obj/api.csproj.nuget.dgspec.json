@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pahan\\Documents\\Projects\\net-web-api\\api\\api.csproj": {}
+    "c:\\Users\\pahan\\Documents\\Projects\\net-web-api\\api\\api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pahan\\Documents\\Projects\\net-web-api\\api\\api.csproj": {
+    "c:\\Users\\pahan\\Documents\\Projects\\net-web-api\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pahan\\Documents\\Projects\\net-web-api\\api\\api.csproj",
+        "projectUniqueName": "c:\\Users\\pahan\\Documents\\Projects\\net-web-api\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "C:\\Users\\pahan\\Documents\\Projects\\net-web-api\\api\\api.csproj",
+        "projectPath": "c:\\Users\\pahan\\Documents\\Projects\\net-web-api\\api\\api.csproj",
         "packagesPath": "C:\\Users\\pahan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pahan\\Documents\\Projects\\net-web-api\\api\\obj\\",
+        "outputPath": "c:\\Users\\pahan\\Documents\\Projects\\net-web-api\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pahan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,8 +21,6 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,6 +45,20 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.10, )"
             },
