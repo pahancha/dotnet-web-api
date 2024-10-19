@@ -68,5 +68,18 @@ namespace api.Controllers
             return Ok(comment.ToCommentDto());
         }
 
+        [HttpDelete]
+        [Route("{id}")]
+        public async Task<IActionResult> Delete([FromRoute] int id)
+        {
+            var commentModal = _commentRepo.DeleteAsync(id);
+
+            if (commentModal == null) {
+                return NotFound("Comment does not exist.");
+            }
+
+            return Ok(commentModal);
+        }
+
     }
 }
